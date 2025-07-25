@@ -153,6 +153,13 @@
     .animation-img {
         display: none;
     }
+    .offer_zabo{
+        font-size: 20px;
+        text-align: center;
+    }
+    .offer_zabo-p{
+        font-size: 20px;
+    }
 }
 
 
