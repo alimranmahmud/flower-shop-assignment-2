@@ -1,6 +1,21 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+.animation-img {
+    animation: rotate-img 20s ease-in-out infinite;
+}
+
+@keyframes rotate-img {
+    form {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
 .noto-serif {
     font-family: "Noto Serif", serif;
     font-optical-sizing: auto;
@@ -35,7 +50,7 @@
 }
 
 /* discount card  */
-.discount-card img{
+.discount-card img {
     width: 100%;
 }
 
@@ -67,25 +82,25 @@
 
 /* Flower and plants lover */
 
-.flower-store{
-width: 540px;
+.flower-store {
+    width: 540px;
 
 }
-.flower-store img{
-width: 540px;
-}
-.plats-content{
+
+.flower-store img {
     width: 540px;
 }
-.plats-content h1{
+
+.plats-content {
+    width: 540px;
+}
+
+.plats-content h1 {
     font-size: 50px;
     margin-bottom: 30px;
 }
 
 /* form style  */
-.form input{
-
-}
 
 
 
@@ -117,28 +132,37 @@ width: 540px;
         justify-content: center;
     }
 
-   .plats-container{
-    flex-direction: column;
-   }
-.flower-store{
-width: auto;
+    .plats-container {
+        flex-direction: column;
+    }
 
-}
+    .flower-store {
+        width: auto;
 
-.plats-content{
-    width: auto;
-}
-.discount-card-container{
-    grid-template-columns: 1fr;
-}
-.zabo-plant{
-    height: 201px;
-    margin: 20px 0px;
-}
-.form input{
-    width: 180px;
-}
-.form h1{
-    font-size: 20px;
-}
+    }
+
+    .plats-content {
+        width: auto;
+    }
+
+    .discount-card-container {
+        grid-template-columns: 1fr;
+    }
+
+    .zabo-plant {
+        height: 201px;
+        margin: 20px 0px;
+    }
+
+    .form input {
+        width: 180px;
+    }
+
+    .form h1 {
+        font-size: 20px;
+    }
+
+    .animation-img {
+        display: none;
+    }
 }
